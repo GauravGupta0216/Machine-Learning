@@ -38,7 +38,7 @@ def hypothesis(theta, X_train):
     return h
 
 #----------------------------READING DATA FILE------------------------------#
-df = np.loadtxt('E:/ML/mod1/airfoil_self_noise.dat')
+df = np.loadtxt('airfoil_self_noise.dat')
 x = df[:,:5]
 y = df[:,5]
 #print(x.shape[1])
